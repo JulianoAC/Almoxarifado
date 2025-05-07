@@ -12,7 +12,7 @@ include 'header.php';
 </head>
 <body>
 <div class="container mt-5">
-    <h2 class="mb-4">Editar Usuario <?= (isset($resultado['nome'])) ? "-".$resultado['nome'] : ""  ?></h2>
+    <h2 class="mb-4">Editar Usuário <?= (isset($resultado['nome'])) ? "-".$resultado['nome'] : ""  ?></h2>
     
     <!-- Formulário de Edição -->
     <form action="editarUsuario.php" method="POST">
@@ -25,7 +25,7 @@ include 'header.php';
         </div> 
 
         <div class="mb-3 col-md-6">
-            <label for="email" class="form-label">email</label>
+            <label for="email" class="form-label">E-mail</label>
             <input type="text" class="form-control border-dark" id="email" name="email" value="<?= (isset($resultado)) ? $resultado[0]['email'] : ""  ?>" required>
         </div>
 
@@ -35,7 +35,7 @@ include 'header.php';
         </div>
 
         <div class="mb-3 col-md-6">
-            <label for="tipo" class="form-label">senha</label>
+            <label for="tipo" class="form-label">Senha</label>
             <input type="password" class="form-control border-dark" id="senha" name="senha" value="<?= (isset($resultado)) ? $resultado[0]['senha'] : "" ?>" required>
         </div>
 

@@ -23,7 +23,7 @@ include 'header.php';
         </div>
 
         <div class="mb-3 col-md-6">
-            <label for="email" class="form-label">Email</label>
+            <label for="email" class="form-label">E-mail</label>
             <input type="text" class="form-control border-dark col-6" id="email" name="email" required>
         </div>
 

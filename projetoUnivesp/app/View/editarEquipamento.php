@@ -21,7 +21,7 @@ include 'header.php';
         <input type="hidden" name="id" value="<?= (isset($resultado)) ? $resultado[0]['id'] : ""?>">
 
         <div class="mb-3 col-md-6">
-            <label for="codigoDeBarra" class="form-label">Código de Barra</label>
+            <label for="codigoDeBarra" class="form-label">Código de Barras</label>
             <input type="text" class="form-control border-dark" id="codigoDeBarra" name="codigo_de_barras" value="<?= (isset($resultado)) ? $resultado[0]['codigoDeBarra'] : "" ?>" required>
         </div>
 
@@ -36,7 +36,7 @@ include 'header.php';
         </div>
 
         <div class="mb-3 col-md-6">
-            <label for="selectBasico" class="form-label">Status do equipamento:</label>
+            <label for="selectBasico" class="form-label">Status do Equipamento:</label>
             <select class="form-select border-dark" id="selectBasico" name="status" required>
                 <option value="Disponível" <?= ($resultado[0]['status'] == "Disponível") ? 'selected' : '' ?> >Disponível</option>
                 <option value="Manutenção" <?= ($resultado[0]['status'] == "Manutenção") ? 'selected' : '' ?>>Manutenção</option>

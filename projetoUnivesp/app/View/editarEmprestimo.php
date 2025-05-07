@@ -26,7 +26,7 @@ foreach ($resultado as $result) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editar Empréstimo número: </title>
+    <title>Editar Empréstimo Número: </title>
 </head>
 
 <body class="container mt-4">
@@ -58,7 +58,7 @@ foreach ($resultado as $result) {
             <thead>
                 <tr>
                     <th>Equipamento</th>
-                    <th>Código de Barra</th>
+                    <th>Código de Barras</th>
                     <th>Ação</th>
 
                 </tr>
@@ -74,7 +74,7 @@ foreach ($resultado as $result) {
 
         <input type="hidden" name="id_emprestimo" value="<?= $resultado[0]['id_emprestimo'] ?>">
 
-        <h4>Buscar equipamento para este emprestimo:</h4>
+        <h4>Buscar Equipamento Para Este Empréstimo:</h4>
         <input type="text" id="busca-equipamento" name="busca-equipamento" class="form-control border-dark rounded-end-3 shadow-sm" autocomplete="off">
         <div id="lista-equipamentos"></div>
         <br>

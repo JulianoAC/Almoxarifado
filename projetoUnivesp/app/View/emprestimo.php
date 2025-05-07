@@ -19,13 +19,13 @@ include 'header.php';
                 <div class="row">
                     <div class="col-md-6">
                         <div class="mb-3">
-                            <label for="dataHora" class="form-label">Escolha Data e Hora para o inicio do emprestimo</label>
+                            <label for="dataHora" class="form-label">Escolha Data e Hora Para o Início do Empréstimo</label>
                             <input type="text" id="data_inicio" name="data_inicio_emprestimo" class="form-control border-dark rounded-end-3 shadow-sm" placeholder="Selecione a data e hora" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="mb-3">
-                            <label for="dataHora" class="form-label">Escolha Data e Hora para o fim do emprestimo</label>
+                            <label for="dataHora" class="form-label">Escolha Data e Hora Para o Fim do Empréstimo</label>
                             <input type="text" id="data_fim" name="data_fim_emprestimo" class="form-control border-dark rounded-end-3 shadow-sm" placeholder="Selecione a data e hora" required>
                         </div>
                     </div>

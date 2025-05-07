@@ -59,7 +59,7 @@ $('#tabelaHistorico').dataTable( {
         "searching": true,
         "ordering": false,
         "language": {
-        "sProcessing":    "Procesando...",
+        "sProcessing":    "Processando...",
         "sLengthMenu":    "Mostrar _MENU_ registros",
         "sZeroRecords":   "Não encontrou resultado",
         "sEmptyTable":    "Nenhum resultado",

@@ -25,7 +25,7 @@ include 'header.php';
         </div>
 
         <div class="mb-3 col-md-6">
-            <label for="nome" class="form-label">Data da manutenção</label>
+            <label for="nome" class="form-label">Data da Manutenção</label>
             <input type="text" class="form-control border-dark" id="data_manutencao" name="data_manutencao" required>
         </div>
 

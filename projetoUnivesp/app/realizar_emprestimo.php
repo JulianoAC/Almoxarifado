@@ -32,6 +32,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['equipamentos'])) {
         $stmt->close();
     }
 
-    echo "Empréstimo realizado com sucesso!";
+    echo "Empréstimo Realizado com Sucesso!";
     $conn->close();
 }

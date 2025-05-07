@@ -46,14 +46,14 @@ $emprestimos = '';
 	<input class="form-control"  type="hidden" id='cod_fita' value=''>
 
 		
-	<h2 class="mt-5 container	">Pesquisa de Emprestimo</h2>
+	<h2 class="mt-5 container	">Pesquisa de Empréstimo</h2>
 
 
 
 	<form method="post" action="../action/pesquisarEmprestimo.php">
 
 		<div class="form-group container">
-			<label  >Código do emprestimo</label>
+			<label  >Código do Empréstimo</label>
 			<input value="*" class="form-control w-25 border-dark" name="cod_emprestimo" style="text-transform: uppercase;" required="required">
 		</div>
 		
@@ -75,11 +75,11 @@ $emprestimos = '';
 					<table class='container' id='emprestimos'>
 					<thead>
 						<tr>
-							<th class='col-3' >Número do Emprestimo</th>
+							<th class='col-3' >Número do Empréstimo</th>
 							<th>Solicitante</th>
-							<th>Início do Emprestimo</th>
-							<th>Fim do Emprestimo</th>							
-							<th> Ações</th>
+							<th>Início do Empréstimo</th>
+							<th>Fim do Empréstimo</th>							
+							<th>Ações</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -102,7 +102,7 @@ $emprestimos = '';
 	  	"searching": true,
 	  	"ordering": false,
 	  	"language": {
-        "sProcessing":    "Procesando...",
+        "sProcessing":    "Processando...",
         "sLengthMenu":    "Mostrar _MENU_ registros",
         "sZeroRecords":   "Não encontrou resultado",
         "sEmptyTable":    "Nenhum resultado",
